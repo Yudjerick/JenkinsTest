@@ -11,7 +11,7 @@ pipeline {
                 echo "Тестирование приложения..."
             }
         }
-        stage(«Deploy») {
+        stage("Deploy") {
             steps {
                 echo "Развёртывание приложения..."
             }
